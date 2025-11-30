@@ -14,6 +14,9 @@
   grid-template-columns: 1fr;
   gap: 24px;
   margin-bottom: 40px;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .contributorCard {
@@ -73,11 +76,12 @@
 
 .section {
   padding: 120px 60px;
-  max-width: 1400px;
-  margin: 0 auto;
-  width: 100%;
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
   position: relative;
   overflow: hidden;
+  background-color: #E2EEF5;
+  background-image: linear-gradient(135deg, #E2EEF5 0%, #D0E4EF 100%);
 }
 
 /* Offerings grid styles */
@@ -86,6 +90,9 @@
   grid-template-columns: 1fr;
   gap: 24px;
   margin-bottom: 40px;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .offeringCard {
@@ -152,8 +159,8 @@
 
 .sectionHeader {
   text-align: center;
-  max-width: 850px;
   margin: 0 auto 80px;
+  max-width: 850px;
 }
 
 .sectionTitle {
@@ -175,6 +182,9 @@
   display: grid;
   grid-template-columns: 1fr;
   gap: 24px;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .focusAreaCard {
@@ -239,6 +249,9 @@
   display: grid;
   grid-template-columns: 1fr;
   gap: 24px;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .eventCard {
@@ -333,6 +346,9 @@
   display: grid;
   grid-template-columns: 1fr;
   gap: 24px;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .recordingCard {
@@ -482,6 +498,9 @@
 .milestonesContainer {
   position: relative;
   padding-left: 30px;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .milestone {
@@ -535,6 +554,9 @@
 .sectionCta {
   margin-top: 40px;
   text-align: center;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .btnOutline {
@@ -570,6 +592,9 @@
   gap: 24px;
   align-items: center;
   text-align: center;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .newsletterText {

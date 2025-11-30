@@ -21,7 +21,7 @@ export default function Home() {
         <Hero />
         
         {/* Upcoming Events Section */}
-        <section className={styles.section} style={{ backgroundColor: '#F8F8F8', width: '100vw', marginLeft: 'calc(-50vw + 50%)' }}>
+        <section className={styles.section}>
           <div className={styles.sectionHeader}>
             <h2 className={styles.sectionTitle}>Upcoming Events</h2>
             <p className={styles.sectionDescription}>
@@ -138,7 +138,7 @@ export default function Home() {
         </section>
         
         {/* Offerings Section */}
-        <section className={styles.section} style={{ backgroundColor: '#F8F8F8', width: '100vw', marginLeft: 'calc(-50vw + 50%)' }}>
+        <section className={styles.section}>
           <div className={styles.sectionHeader}>
             <h2 className={styles.sectionTitle}>Our Offerings</h2>
             <p className={styles.sectionDescription}>
@@ -298,7 +298,7 @@ export default function Home() {
         </section>
         
         {/* Focus Areas Section */}
-        <section className={styles.section} style={{ backgroundColor: '#F8F8F8', width: '100vw', marginLeft: 'calc(-50vw + 50%)' }}>
+        <section className={styles.section}>
           <div className={styles.sectionHeader}>
             <h2 className={styles.sectionTitle}>Focus Areas</h2>
             <p className={styles.sectionDescription}>

@@ -2,8 +2,9 @@
 
 :root {
   --primary-bg: #E2EEF5;
-  --secondary-bg: #F8F8F8;
+  --secondary-bg: #E2EEF5;
   --tertiary-bg: #E2EEF5;
+  --footer-bg: #32373C;
   --text-black: #000000;
   --text-dark: #32373C;
   --teal: #43CBCB;

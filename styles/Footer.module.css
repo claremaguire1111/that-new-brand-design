@@ -1,0 +1,146 @@
+.footer {
+  background-color: #E2EEF5;
+  background-image: linear-gradient(135deg, #E2EEF5 0%, #D0E4EF 100%);
+  color: #32373C;
+  padding: 60px 40px 24px;
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  position: relative;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 0px;
+}
+
+.footerContent {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.footerMain {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.logoSection {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 400px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  font-family: 'GT Super', 'Noe Display', 'Freight Text', Georgia, Times, serif;
+  line-height: 1;
+  margin-bottom: 16px;
+  max-width: 150px;
+  max-height: 50px;
+}
+
+.logoText {
+  font-size: 1.1rem;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  color: #32373C;
+}
+
+.logoSubtext {
+  font-size: 0.7rem;
+  font-weight: 400;
+  color: #505560;
+  letter-spacing: 0.1em;
+}
+
+.tagline {
+  color: #505560;
+  line-height: 1.6;
+  font-weight: 300;
+}
+
+.footerNav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.columnTitle {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-family: 'GT Super', 'Noe Display', 'Freight Text', Georgia, Times, serif;
+}
+
+.columnList {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.columnList a {
+  color: #505560;
+  transition: color 0.2s;
+}
+
+.columnList a:hover {
+  color: #000000;
+  text-decoration: underline;
+}
+
+.footerBottom {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-top: 24px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.copyright {
+  color: #505560;
+  font-size: 0.875rem;
+}
+
+.footerLinks {
+  display: flex;
+  gap: 16px;
+}
+
+.footerLink {
+  color: #505560;
+  font-size: 0.875rem;
+  transition: color 0.2s;
+}
+
+.footerLink:hover {
+  color: #000000;
+}
+
+@media (min-width: 768px) {
+  .footerMain {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .logoSection {
+    flex: 1;
+  }
+  
+  .footerNav {
+    flex: 2;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+  }
+  
+  .footerBottom {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

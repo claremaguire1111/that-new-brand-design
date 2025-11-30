@@ -1,0 +1,167 @@
+.header {
+  background-color: transparent;
+  box-shadow: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  padding: 15px 40px;
+}
+
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.headerContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 40px;
+}
+
+.logoLink {
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+  text-decoration: none;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logoImage {
+  max-height: 24px;
+  width: auto;
+}
+
+/* Desktop Navigation */
+.spacer {
+  flex: 1;
+}
+
+.navActions {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.donateButton {
+  padding: 6px 16px;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #32373C;
+  border-radius: 30px;
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: 400;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  font-family: 'GT Super', 'Noe Display', 'Freight Text', Georgia, Times, serif;
+}
+
+.donateButton:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+/* Mobile Menu Button */
+.mobileMenuBtn {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: 'GT Super', 'Noe Display', 'Freight Text', Georgia, Times, serif;
+  font-size: 14px;
+  margin-left: 12px;
+}
+
+.menuPill {
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 6px 16px;
+  border-radius: 30px;
+  font-weight: 400;
+  color: #32373C;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.menuIcon {
+  color: #32373C;
+}
+
+/* Mobile Navigation */
+.mobileNav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: white;
+  padding: 80px 40px 60px;
+  overflow-y: auto;
+  z-index: 90;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.menuContainer {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.menuColumns {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 40px;
+}
+
+.menuColumnTitle {
+  font-family: 'GT Super', 'Noe Display', 'Freight Text', Georgia, Times, serif;
+  font-size: 1.4rem;
+  margin-bottom: 20px;
+  color: #32373C;
+  font-weight: 400;
+}
+
+.menuColumnList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menuColumnList li {
+  margin-bottom: 12px;
+}
+
+.menuColumnList a {
+  font-family: 'GT Super', 'Noe Display', 'Freight Text', Georgia, Times, serif;
+  font-size: 1rem;
+  color: #505560;
+  text-decoration: none;
+  transition: color 0.2s;
+  font-weight: 400;
+}
+
+.menuColumnList a:hover {
+  color: #000000;
+}
+
+@media (max-width: 1024px) {
+  .mobileMenuBtn {
+    display: block;
+  }
+}
+
+@media (max-width: 768px) {
+  .menuColumns {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  
+  .header {
+    padding: 20px;
+  }
+}

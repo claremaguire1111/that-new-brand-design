@@ -1,0 +1,18 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cardGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4AC0C0" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#2A80B9" stop-opacity="1"/>
+    </linearGradient>
+  </defs>
+  
+  <rect width="600" height="400" fill="url(#cardGradient)"/>
+  
+  <!-- Subtle geometric shapes -->
+  <circle cx="100" cy="80" r="40" fill="#ffffff" fill-opacity="0.04"/>
+  <rect x="400" y="50" width="80" height="80" rx="10" fill="#ffffff" fill-opacity="0.03"/>
+  <ellipse cx="250" cy="250" rx="60" ry="30" fill="#ffffff" fill-opacity="0.05"/>
+  <rect x="150" y="300" width="120" height="20" rx="5" fill="#ffffff" fill-opacity="0.03"/>
+  <circle cx="450" cy="280" r="25" fill="#ffffff" fill-opacity="0.04"/>
+  <rect x="50" y="200" width="30" height="100" rx="5" fill="#ffffff" fill-opacity="0.03"/>
+</svg>

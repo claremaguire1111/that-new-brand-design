@@ -47,8 +47,8 @@ const Navbar = () => {
           <div className={styles.spacer}></div>
 
           <div className={styles.navActions}>
-            <Link href="/donate" className={styles.donateButton}>
-              Donate
+            <Link href="/brandkit" className={styles.donateButton}>
+              Brand Kit
             </Link>
             
             {/* Mobile Menu Button */}
@@ -96,6 +96,7 @@ const Navbar = () => {
                   <ul className={styles.menuColumnList}>
                     <li><Link href="/resources/recordings">Recordings</Link></li>
                     <li><Link href="/resources/podcasts">Podcasts</Link></li>
+                    <li><Link href="/brandkit">Brand Kit</Link></li>
                   </ul>
                 </div>
                 

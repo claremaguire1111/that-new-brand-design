@@ -55,7 +55,7 @@
 .contributorLink {
   display: inline-block;
   font-weight: 400;
-  color: #32373C;
+  color: #1B7774;
   position: relative;
 }
 
@@ -80,8 +80,8 @@
   margin-left: calc(-50vw + 50%);
   position: relative;
   overflow: hidden;
-  background-color: #E2EEF5;
-  background-image: linear-gradient(135deg, #E2EEF5 0%, #D0E4EF 100%);
+  background-color: #F7F9FB;
+  background-image: linear-gradient(135deg, #F7F9FB 0%, #E1F1F4 100%);
 }
 
 /* Offerings grid styles */
@@ -132,7 +132,7 @@
 .offeringLink {
   display: inline-block;
   font-weight: 400;
-  color: #32373C;
+  color: #1B7774;
   position: relative;
 }
 
@@ -166,13 +166,13 @@
 .sectionTitle {
   font-size: 3rem;
   margin-bottom: 24px;
-  color: #32373C;
+  color: #111111;
   font-weight: 400;
 }
 
 .sectionDescription {
   font-size: 1.25rem;
-  color: #505560;
+  color: #4B4F57;
   line-height: 1.6;
   font-weight: 300;
 }
@@ -225,7 +225,7 @@
 .focusAreaLink {
   display: inline-block;
   font-weight: 400;
-  color: #32373C;
+  color: #1B7774;
   position: relative;
 }
 
@@ -277,7 +277,7 @@
   align-items: center;
   justify-content: center;
   min-width: 80px;
-  background-color: #32373C;
+  background-color: #1B7774;
   color: white;
   padding: 16px;
 }
@@ -322,7 +322,7 @@
 .eventLink {
   display: inline-block;
   font-weight: 400;
-  color: #32373C;
+  color: #1B7774;
   position: relative;
 }
 
@@ -400,7 +400,7 @@
 .recordingLink {
   display: inline-block;
   font-weight: 400;
-  color: #32373C;
+  color: #1B7774;
   position: relative;
 }
 
@@ -514,7 +514,7 @@
   top: 10px;
   width: 14px;
   height: 14px;
-  background-color: #32373C;
+  background-color: #1B7774;
   border-radius: 50%;
   z-index: 1;
 }
@@ -526,7 +526,7 @@
   left: 50%;
   width: 2px;
   height: calc(100% + 40px);
-  background-color: rgba(50, 55, 60, 0.2);
+  background-color: rgba(27, 119, 116, 0.2);
   transform: translateX(-50%);
 }
 
@@ -542,7 +542,7 @@
   font-size: 1.25rem;
   margin-bottom: 12px;
   font-weight: 400;
-  color: #32373C;
+  color: #1B7774;
 }
 
 .milestoneDescription {
@@ -563,24 +563,24 @@
   display: inline-block;
   padding: 12px 24px;
   background-color: transparent;
-  color: #32373C;
-  border: 2px solid #32373C;
+  color: #1B7774;
+  border: 2px solid #1B7774;
   border-radius: 9999px;
   font-weight: 400;
   transition: all 0.2s;
 }
 
 .btnOutline:hover {
-  background-color: #32373C;
+  background-color: #1B7774;
   color: white;
 }
 
 /* Newsletter Section */
 .newsletterSection {
   padding: 80px 40px;
-  background-color: #E2EEF5;
-  background-image: linear-gradient(135deg, #E2EEF5 0%, #D0E4EF 100%);
-  color: #32373C;
+  background-color: #F7F9FB;
+  background-image: linear-gradient(135deg, #F7F9FB 0%, #E1F1F4 100%);
+  color: #111111;
   width: 100vw;
   margin-left: calc(-50vw + 50%);
   position: relative;
@@ -604,7 +604,7 @@
 .newsletterTitle {
   font-size: 2rem;
   margin-bottom: 16px;
-  color: #32373C;
+  color: #111111;
   font-weight: 400;
 }
 
@@ -633,18 +633,18 @@
 }
 
 .subscribeBtn {
-  background-color: #32373C;
-  color: white;
+  background-color: white;
+  color: #1B7774;
   padding: 12px 24px;
-  border: none;
+  border: 1px solid #1B7774;
   border-radius: 4px;
-  font-weight: 400;
+  font-weight: 500;
   cursor: pointer;
-  transition: background-color 0.2s;
+  transition: all 0.2s;
 }
 
 .subscribeBtn:hover {
-  background-color: #000000;
+  background-color: #f0f0f0;
 }
 
 .newsletterPrivacy {

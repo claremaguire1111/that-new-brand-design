@@ -52,19 +52,22 @@
 
 .donateButton {
   padding: 6px 16px;
-  background-color: rgba(255, 255, 255, 0.8);
-  color: #32373C;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #1B7774;
   border-radius: 30px;
   font-size: 14px;
   text-decoration: none;
-  font-weight: 400;
+  font-weight: 500;
   backdrop-filter: blur(10px);
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
-  font-family: 'GT Super', 'Noe Display', 'Freight Text', Georgia, Times, serif;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  font-family: 'Montserrat', sans-serif;
+  transition: all 0.2s ease;
+  border: 1px solid rgba(27, 119, 116, 0.3);
 }
 
 .donateButton:hover {
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 1);
+  border-color: rgba(27, 119, 116, 0.5);
 }
 
 /* Mobile Menu Button */
@@ -80,13 +83,13 @@
 
 .menuPill {
   display: inline-block;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(27, 119, 116, 0.9);
   padding: 6px 16px;
   border-radius: 30px;
-  font-weight: 400;
-  color: #32373C;
+  font-weight: 500;
+  color: white;
   backdrop-filter: blur(10px);
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 .menuIcon {

@@ -1,0 +1,570 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  flex: 1;
+  padding: 0 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.heroSection {
+  margin: 5rem 0 3rem;
+  text-align: center;
+  padding: 3rem 1rem;
+  background: linear-gradient(to right, #E1F1F4, #CFE3F6, #CDEFD9);
+  border-radius: 8px;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.description {
+  font-size: 1.2rem;
+  color: #666;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.section {
+  margin: 5rem 0;
+  padding-bottom: 3rem;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.sectionTitle {
+  font-size: 2.2rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+  position: relative;
+  display: inline-block;
+}
+
+.sectionTitle::after {
+  content: '';
+  position: absolute;
+  width: 60px;
+  height: 4px;
+  background-color: #1B7774;
+  bottom: -10px;
+  left: 0;
+}
+
+.sectionDescription {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 3rem;
+  max-width: 800px;
+}
+
+/* Logo Section */
+.logoDisplay {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  margin-bottom: 3rem;
+}
+
+.logoVariant {
+  flex: 1;
+  min-width: 300px;
+}
+
+.logoFrame {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+  min-height: 150px;
+}
+
+.logoImage {
+  height: auto;
+  object-fit: contain;
+}
+
+.logoCaption {
+  text-align: center;
+  font-size: 1rem;
+  color: #666;
+}
+
+.logoSpecs {
+  flex: 1;
+  min-width: 300px;
+}
+
+.specsTitle {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.specsList {
+  list-style-type: disc;
+  margin-left: 1.5rem;
+  color: #555;
+}
+
+.specsList li {
+  margin-bottom: 0.75rem;
+}
+
+.assetDownload {
+  background-color: #f9f9f9;
+  padding: 2rem;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.downloadTitle {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.downloadButtons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.downloadButton {
+  background-color: #1B7774;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border-radius: 4px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+}
+
+.downloadButton:hover {
+  background-color: #0A3537;
+  text-decoration: none;
+}
+
+/* Color Palette Section */
+.colorSubtitle {
+  font-size: 1.5rem;
+  margin: 2rem 0 1.5rem;
+  color: #111;
+  font-weight: 600;
+}
+
+.colorGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.colorCard {
+  border-radius: 8px;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.colorCard:hover {
+  transform: translateY(-5px);
+}
+
+.colorInfo {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 1rem;
+  color: #333;
+}
+
+.colorName {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.colorHex {
+  font-family: monospace;
+  margin-bottom: 0.75rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.colorDescription {
+  font-size: 0.9rem;
+  line-height: 1.4;
+  color: #4B4F57;
+}
+
+.colorUsage {
+  background-color: #E1F1F4;
+  padding: 2rem;
+  border-radius: 8px;
+  margin-top: 2rem;
+}
+
+.usageTitle {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: #111;
+}
+
+.usageList {
+  list-style-type: disc;
+  margin-left: 1.5rem;
+  color: #4B4F57;
+}
+
+.usageList li {
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+.usageList strong {
+  color: #1B7774;
+  font-weight: 600;
+}
+
+/* Typography Section */
+.typographyDisplay {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  margin-bottom: 3rem;
+}
+
+.fontFamily {
+  flex: 1;
+  min-width: 300px;
+}
+
+.fontTitle {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.fontSamples {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  margin-bottom: 1.5rem;
+}
+
+.fontSampleHeading1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.fontSampleHeading2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.fontSampleHeading3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.fontSampleBody {
+  font-family: 'Merriweather', serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+.fontDescription {
+  color: #666;
+  font-size: 0.95rem;
+}
+
+.typographyRules {
+  background-color: #f9f9f9;
+  padding: 2rem;
+  border-radius: 8px;
+  margin-bottom: 3rem;
+}
+
+.rulesTitle {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.rulesList {
+  list-style-type: disc;
+  margin-left: 1.5rem;
+  color: #555;
+}
+
+.rulesList li {
+  margin-bottom: 0.75rem;
+}
+
+/* Imagery Section */
+.imageryExamples {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  margin-bottom: 3rem;
+}
+
+.imageryCategory {
+  flex: 1;
+  min-width: 300px;
+}
+
+.categoryTitle {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.imagesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+}
+
+.imageItem {
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.patternImage {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.imageCaption {
+  padding: 1rem;
+  text-align: center;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.imageryRules {
+  flex: 1;
+  min-width: 300px;
+}
+
+/* Voice & Tone Section */
+.voiceExamples {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.voiceCard {
+  flex: 1;
+  min-width: 300px;
+  background-color: #f9f9f9;
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+.voiceTitle {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.voiceList {
+  list-style-type: disc;
+  margin-left: 1.5rem;
+  color: #555;
+}
+
+.voiceList li {
+  margin-bottom: 0.75rem;
+}
+
+.toneExamples {
+  margin-top: 3rem;
+}
+
+.examplesTitle {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.example {
+  margin-bottom: 2rem;
+}
+
+.exampleLabel {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #444;
+}
+
+.exampleContent {
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border-left: 4px solid #1B7774;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.exampleContent p {
+  font-style: italic;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Download Section */
+.downloadSection {
+  background: linear-gradient(45deg, #0A3537, #1B7774);
+  padding: 4rem 2rem;
+  border-radius: 8px;
+  margin: 5rem 0;
+  color: white;
+  text-align: center;
+}
+
+.downloadContainer {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.downloadHeading {
+  font-size: 2.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.downloadDescription {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  opacity: 0.9;
+}
+
+.mainDownloadButton {
+  background-color: white;
+  color: #1B7774;
+  padding: 1rem 2rem;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  display: inline-block;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.mainDownloadButton:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+}
+
+/* Contact Section */
+.contactSection {
+  text-align: center;
+  padding: 3rem 1rem;
+  margin-bottom: 3rem;
+}
+
+.contactContainer {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.contactHeading {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.contactDescription {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  color: #666;
+}
+
+.contactLink {
+  color: #1B7774;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+
+.contactLink:hover {
+  color: #0A3537;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .title {
+    font-size: 2.5rem;
+  }
+  
+  .sectionTitle {
+    font-size: 1.8rem;
+  }
+  
+  .heroSection {
+    margin: 3rem 0 2rem;
+    padding: 2rem 1rem;
+  }
+  
+  .section {
+    margin: 3rem 0;
+  }
+  
+  .downloadHeading {
+    font-size: 1.8rem;
+  }
+  
+  .downloadSection {
+    padding: 3rem 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 2rem;
+  }
+  
+  .sectionTitle {
+    font-size: 1.5rem;
+  }
+  
+  .colorGrid {
+    grid-template-columns: 1fr;
+  }
+  
+  .mainDownloadButton {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+  }
+}

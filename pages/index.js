@@ -309,7 +309,7 @@ export default function Home() {
           <div className={styles.focusAreasGrid}>
             {/* Focus Area 1 */}
             <div className={styles.focusAreaCard}>
-              <div className={styles.focusAreaHeader} style={{ backgroundColor: '#9054A6' }}>
+              <div className={styles.focusAreaHeader} style={{ backgroundImage: 'linear-gradient(to right, #1B7774, #0A3537)' }}>
                 <h3 className={styles.focusAreaTitle}>AI research & safety</h3>
               </div>
               <div className={styles.focusAreaContent}>
@@ -324,7 +324,7 @@ export default function Home() {
             
             {/* Focus Area 2 */}
             <div className={styles.focusAreaCard}>
-              <div className={styles.focusAreaHeader} style={{ backgroundColor: '#EA484B' }}>
+              <div className={styles.focusAreaHeader} style={{ backgroundImage: 'linear-gradient(to right, #1B7774, #0A3537)' }}>
                 <h3 className={styles.focusAreaTitle}>Neuroscience & cognition</h3>
               </div>
               <div className={styles.focusAreaContent}>
@@ -339,7 +339,7 @@ export default function Home() {
             
             {/* Focus Area 3 */}
             <div className={styles.focusAreaCard}>
-              <div className={styles.focusAreaHeader} style={{ backgroundColor: '#43CBCB' }}>
+              <div className={styles.focusAreaHeader} style={{ backgroundImage: 'linear-gradient(to right, #1B7774, #0A3537)' }}>
                 <h3 className={styles.focusAreaTitle}>Mathematics & theory</h3>
               </div>
               <div className={styles.focusAreaContent}>
@@ -354,7 +354,7 @@ export default function Home() {
             
             {/* Focus Area 4 */}
             <div className={styles.focusAreaCard}>
-              <div className={styles.focusAreaHeader} style={{ backgroundColor: '#9BCF46' }}>
+              <div className={styles.focusAreaHeader} style={{ backgroundImage: 'linear-gradient(to right, #1B7774, #0A3537)' }}>
                 <h3 className={styles.focusAreaTitle}>Society & governance</h3>
               </div>
               <div className={styles.focusAreaContent}>
@@ -445,7 +445,7 @@ export default function Home() {
               <p className={styles.newsletterDescription}>
                 Donate today
               </p>
-              <Link href="/donate" className={`${styles.btnPrimary} ${styles.donateBtn}`}>
+              <Link href="/donate" style={{ backgroundColor: 'white', color: '#1B7774', padding: '12px 24px', borderRadius: '4px', textDecoration: 'none', fontWeight: '500', display: 'inline-block', marginTop: '12px', border: '1px solid #1B7774' }}>
                 Donate
               </Link>
             </div>

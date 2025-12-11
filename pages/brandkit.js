@@ -304,13 +304,30 @@ export default function BrandKit() {
                 </div>
                 <p className={styles.socialCaption}>Podcast Episode Template</p>
               </div>
+              
+              <div className={styles.socialCard}>
+                <div className={styles.speakerCard}>
+                  <div className={styles.speakerInfo}>
+                    <div className={styles.socialHeader}>Speaker Announcement</div>
+                    <div className={styles.socialDividerDark}></div>
+                    <div className={styles.socialTitle} style={{ fontSize: "1.4rem" }}>Neuromonster 2026 Keynote</div>
+                    <div className={styles.socialLocation}>Dr. Ruairidh Battleday</div>
+                    <div className={styles.socialDividerDark}></div>
+                    <div className={styles.socialFooter}>June 15-18, 2026 • Rhodes, Greece</div>
+                  </div>
+                  <div className={styles.speakerImage} style={{ backgroundImage: 'url("/images/1536499760985.jpg")' }}></div>
+                </div>
+                <p className={styles.socialCaption}>Speaker Announcement Template (White)</p>
+              </div>
             </div>
 
             <div className={styles.socialGuidelines}>
               <h4 className={styles.guidelinesTitle}>Social Media Guidelines</h4>
               <ul className={styles.guidelinesList}>
                 <li>Use consistent structure with header, title, subtitle, and footer text</li>
-                <li>Maintain our blue color palette with appropriate overlay opacity for text readability</li>
+                <li>Offer three primary variants: blue overlay, white overlay, and speaker card layout</li>
+                <li>For speaker announcements, use the split layout with content on the left and the speaker image on the right</li>
+                <li>Apply grayscale filter to speaker images to maintain brand aesthetic</li>
                 <li>Use Cardo font throughout with appropriate size hierarchy</li>
                 <li>Utilize thin divider lines to create visual structure</li>
                 <li>Keep text concise and impactful</li>

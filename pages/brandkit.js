@@ -244,10 +244,10 @@ export default function BrandKit() {
               <div className={styles.socialCard}>
                 <div className={styles.socialImage} style={{ backgroundImage: 'url("/images/1940fbf3-e446-4a1e-89ed-e3a8dc5a7617-md.jpg")' }}>
                   <div className={styles.socialOverlay}>
-                    <div className={styles.socialContent}>
+                    <div className={styles.socialContent} style={{ padding: "1rem" }}>
                       <div className={styles.socialHeader}>Open Position</div>
                       <div className={styles.socialDivider}></div>
-                      <div className={styles.socialTitle}>AI Research Lead</div>
+                      <div className={styles.socialTitle} style={{ fontSize: "1.4rem" }}>AI Research Lead</div>
                       <div className={styles.socialLocation}>London, UK</div>
                       <div className={styles.socialDivider}></div>
                       <div className={styles.socialFooter}>Applications open until June 15, 2025</div>
@@ -260,10 +260,10 @@ export default function BrandKit() {
               <div className={styles.socialCard}>
                 <div className={styles.socialImage} style={{ backgroundImage: 'url("/images/86760322-d4d3-446d-8887-0a7ee498ac48-md.jpg")' }}>
                   <div className={styles.socialOverlay}>
-                    <div className={styles.socialContent}>
+                    <div className={styles.socialContent} style={{ padding: "1rem" }}>
                       <div className={styles.socialHeader}>Event</div>
                       <div className={styles.socialDivider}></div>
-                      <div className={styles.socialTitle}>AE Global Summit 2026</div>
+                      <div className={styles.socialTitle} style={{ fontSize: "1.4rem" }}>AE Global Summit 2026</div>
                       <div className={styles.socialLocation}>October 28-30, 2026</div>
                       <div className={styles.socialDivider}></div>
                       <div className={styles.socialFooter}>Registration now open</div>
@@ -276,10 +276,10 @@ export default function BrandKit() {
               <div className={styles.socialCard}>
                 <div className={styles.socialImage} style={{ backgroundImage: 'url("/images/12a81fcd-d926-42c3-87e2-bfd869dde074-md.jpg")' }}>
                   <div className={styles.socialOverlay}>
-                    <div className={styles.socialContent}>
+                    <div className={styles.socialContent} style={{ padding: "1rem" }}>
                       <div className={styles.socialHeader}>Publication</div>
                       <div className={styles.socialDivider}></div>
-                      <div className={styles.socialTitle}>New Research on Neural Dynamics</div>
+                      <div className={styles.socialTitle} style={{ fontSize: "1.4rem" }}>New Research on Neural Dynamics</div>
                       <div className={styles.socialLocation}>Computational Intelligence Journal</div>
                       <div className={styles.socialDivider}></div>
                       <div className={styles.socialFooter}>Read the full paper on our website</div>
@@ -292,10 +292,10 @@ export default function BrandKit() {
               <div className={styles.socialCard}>
                 <div className={styles.socialImage} style={{ backgroundImage: 'url("/images/4c5fdb4e-e78b-4e50-bb0e-722295c54fcb-md.jpg")' }}>
                   <div className={styles.socialOverlay}>
-                    <div className={styles.socialContent}>
+                    <div className={styles.socialContent} style={{ padding: "1rem" }}>
                       <div className={styles.socialHeader}>Podcast</div>
                       <div className={styles.socialDivider}></div>
-                      <div className={styles.socialTitle}>Thinking About Intelligence</div>
+                      <div className={styles.socialTitle} style={{ fontSize: "1.4rem" }}>Thinking About Intelligence</div>
                       <div className={styles.socialLocation}>Episode 12: AI Safety Frontiers</div>
                       <div className={styles.socialDivider}></div>
                       <div className={styles.socialFooter}>Listen now on all major platforms</div>

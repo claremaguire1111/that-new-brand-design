@@ -272,7 +272,7 @@
 }
 
 .fontSampleHeading1 {
-  font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Cardo', Georgia, Times, serif;
   font-size: 2rem;
   font-weight: 700;
   margin-bottom: 1rem;
@@ -280,7 +280,7 @@
 }
 
 .fontSampleHeading2 {
-  font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Cardo', Georgia, Times, serif;
   font-size: 1.5rem;
   font-weight: 600;
   margin-bottom: 1rem;
@@ -288,16 +288,18 @@
 }
 
 .fontSampleHeading3 {
-  font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Cardo', Georgia, Times, serif;
   font-size: 1.2rem;
   font-weight: 600;
+  margin-bottom: 1rem;
   color: #333;
 }
 
 .fontSampleBody {
-  font-family: 'Cardo', Georgia, serif;
+  font-family: 'Cardo', Georgia, Times, serif;
   font-size: 1rem;
   line-height: 1.6;
+  margin-top: 1.5rem;
   color: #333;
 }
 
@@ -348,6 +350,12 @@
   color: #333;
 }
 
+.categoryDescription {
+  margin-bottom: 2rem;
+  color: #555;
+  line-height: 1.6;
+}
+
 .imagesGrid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -377,6 +385,129 @@
 .imageryRules {
   flex: 1;
   min-width: 300px;
+}
+
+/* Social Media Templates */
+.socialMediaExamples {
+  margin: 3rem 0;
+}
+
+.socialGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.socialCard {
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.socialCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.socialImage {
+  width: 100%;
+  position: relative;
+  aspect-ratio: 1 / 1;
+  background-size: cover;
+  background-position: center;
+}
+
+.socialOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(220, 233, 247, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+}
+
+.socialContent {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #1B335A;
+  padding: 1.5rem;
+  font-family: 'Cardo', Georgia, Times, serif;
+}
+
+.socialHeader {
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: left;
+}
+
+.socialDivider {
+  width: 100%;
+  height: 1px;
+  background-color: #1B335A;
+  margin: 0.5rem 0;
+}
+
+.socialTitle {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 1rem 0;
+  align-self: flex-start;
+}
+
+.socialLocation {
+  font-size: 1.2rem;
+  font-weight: 400;
+  font-style: italic;
+  margin-bottom: 0.5rem;
+}
+
+.socialFooter {
+  font-size: 0.9rem;
+  font-weight: 400;
+  margin-top: auto;
+  text-align: left;
+}
+
+.socialCaption {
+  padding: 1rem;
+  text-align: center;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.socialGuidelines {
+  background-color: #f9f9f9;
+  padding: 2rem;
+  border-radius: 8px;
+  margin: 2rem 0;
+}
+
+.guidelinesTitle {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.guidelinesList {
+  list-style-type: disc;
+  margin-left: 1.5rem;
+  color: #555;
+}
+
+.guidelinesList li {
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
 }
 
 /* Voice & Tone Section */

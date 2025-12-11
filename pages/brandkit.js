@@ -145,31 +145,22 @@ export default function BrandKit() {
         <section className={styles.section} id="typography">
           <h2 className={styles.sectionTitle}>Typography</h2>
           <p className={styles.sectionDescription}>
-            Our typography balances clarity and intellectual depth, using a contemporary sans-serif for headings and a highly readable serif for body text.
+            Our typography embraces simplicity and scholarly tradition with a singular typeface that creates cohesion and clarity throughout all our communications.
           </p>
 
           <div className={styles.typographyDisplay}>
             <div className={styles.fontFamily}>
-              <h3 className={styles.fontTitle}>Headings: Inter</h3>
+              <h3 className={styles.fontTitle}>Primary Font: Cardo</h3>
               <div className={styles.fontSamples}>
                 <p className={styles.fontSampleHeading1}>The Foundations of Intelligence</p>
                 <p className={styles.fontSampleHeading2}>Computational Models & Neuroscience</p>
                 <p className={styles.fontSampleHeading3}>Society, Ethics & Governance</p>
-              </div>
-              <p className={styles.fontDescription}>
-                Inter is our primary heading font. Its geometric, open forms convey clarity and modernity while maintaining intellectual weight.
-              </p>
-            </div>
-
-            <div className={styles.fontFamily}>
-              <h3 className={styles.fontTitle}>Body: Cardo</h3>
-              <div className={styles.fontSamples}>
                 <p className={styles.fontSampleBody}>
                   Thinking About Thinking Inc. is a charity dedicated to deepening our understanding of AI, neuroscience, and how advances in these fields shape our shared future. We bring together researchers, practitioners, and thought leaders to explore open problems at the intersection of computation, cognition, and society.
                 </p>
               </div>
               <p className={styles.fontDescription}>
-                Cardo provides excellent readability for longer text, with a scholarly feel that suits our intellectual content while remaining accessible.
+                Cardo is our singular typeface used across all elements of the site. It provides excellent readability with a scholarly, refined feel that suits our intellectual content while maintaining a consistent visual identity throughout.
               </p>
             </div>
           </div>
@@ -177,12 +168,12 @@ export default function BrandKit() {
           <div className={styles.typographyRules}>
             <h3 className={styles.rulesTitle}>Typography Guidelines</h3>
             <ul className={styles.rulesList}>
-              <li>Use Inter for headings, navigation, and UI elements</li>
-              <li>Use Cardo for body text, quotes, and longer-form content</li>
-              <li>Maintain proper hierarchy with clear size differentiation between heading levels</li>
+              <li>Use Cardo for all text elements: headings, body text, navigation, UI elements, and buttons</li>
+              <li>Maintain proper hierarchy with clear size and weight differentiation between heading levels and body text</li>
               <li>For digital, minimum body text size should be 16px</li>
               <li>For print, minimum body text size should be 10pt</li>
               <li>Line height for body text should be 1.5-1.6x the font size</li>
+              <li>Use font-weight variations to create hierarchy and emphasis rather than multiple typefaces</li>
             </ul>
           </div>
 
@@ -238,6 +229,92 @@ export default function BrandKit() {
                 <li>Apply our color palette consistently across all visual assets</li>
                 <li>When using photography, prefer images that show diverse groups of people engaged in collaboration, research, and thoughtful discussion</li>
                 <li>Avoid cliché AI imagery (robots, terminators, etc.) and simplistic brain iconography</li>
+              </ul>
+            </div>
+          </div>
+
+          {/* Social Media Examples Section */}
+          <div className={styles.socialMediaExamples}>
+            <h3 className={styles.categoryTitle}>Social Media Templates</h3>
+            <p className={styles.categoryDescription}>
+              Our social media presence uses a consistent visual language with clean typography and our blue color palette. Text overlays follow a structured format with clear hierarchy.
+            </p>
+            
+            <div className={styles.socialGrid}>
+              <div className={styles.socialCard}>
+                <div className={styles.socialImage} style={{ backgroundImage: 'url("/images/1940fbf3-e446-4a1e-89ed-e3a8dc5a7617-md.jpg")' }}>
+                  <div className={styles.socialOverlay}>
+                    <div className={styles.socialContent}>
+                      <div className={styles.socialHeader}>Open Position</div>
+                      <div className={styles.socialDivider}></div>
+                      <div className={styles.socialTitle}>AI Research Lead</div>
+                      <div className={styles.socialLocation}>London, UK</div>
+                      <div className={styles.socialDivider}></div>
+                      <div className={styles.socialFooter}>Applications open until June 15, 2025</div>
+                    </div>
+                  </div>
+                </div>
+                <p className={styles.socialCaption}>Job Announcement Template</p>
+              </div>
+              
+              <div className={styles.socialCard}>
+                <div className={styles.socialImage} style={{ backgroundImage: 'url("/images/86760322-d4d3-446d-8887-0a7ee498ac48-md.jpg")' }}>
+                  <div className={styles.socialOverlay}>
+                    <div className={styles.socialContent}>
+                      <div className={styles.socialHeader}>Event</div>
+                      <div className={styles.socialDivider}></div>
+                      <div className={styles.socialTitle}>AE Global Summit 2026</div>
+                      <div className={styles.socialLocation}>October 28-30, 2026</div>
+                      <div className={styles.socialDivider}></div>
+                      <div className={styles.socialFooter}>Registration now open</div>
+                    </div>
+                  </div>
+                </div>
+                <p className={styles.socialCaption}>Event Announcement Template</p>
+              </div>
+              
+              <div className={styles.socialCard}>
+                <div className={styles.socialImage} style={{ backgroundImage: 'url("/images/12a81fcd-d926-42c3-87e2-bfd869dde074-md.jpg")' }}>
+                  <div className={styles.socialOverlay}>
+                    <div className={styles.socialContent}>
+                      <div className={styles.socialHeader}>Publication</div>
+                      <div className={styles.socialDivider}></div>
+                      <div className={styles.socialTitle}>New Research on Neural Dynamics</div>
+                      <div className={styles.socialLocation}>Computational Intelligence Journal</div>
+                      <div className={styles.socialDivider}></div>
+                      <div className={styles.socialFooter}>Read the full paper on our website</div>
+                    </div>
+                  </div>
+                </div>
+                <p className={styles.socialCaption}>Publication Announcement Template</p>
+              </div>
+              
+              <div className={styles.socialCard}>
+                <div className={styles.socialImage} style={{ backgroundImage: 'url("/images/4c5fdb4e-e78b-4e50-bb0e-722295c54fcb-md.jpg")' }}>
+                  <div className={styles.socialOverlay}>
+                    <div className={styles.socialContent}>
+                      <div className={styles.socialHeader}>Podcast</div>
+                      <div className={styles.socialDivider}></div>
+                      <div className={styles.socialTitle}>Thinking About Intelligence</div>
+                      <div className={styles.socialLocation}>Episode 12: AI Safety Frontiers</div>
+                      <div className={styles.socialDivider}></div>
+                      <div className={styles.socialFooter}>Listen now on all major platforms</div>
+                    </div>
+                  </div>
+                </div>
+                <p className={styles.socialCaption}>Podcast Episode Template</p>
+              </div>
+            </div>
+
+            <div className={styles.socialGuidelines}>
+              <h4 className={styles.guidelinesTitle}>Social Media Guidelines</h4>
+              <ul className={styles.guidelinesList}>
+                <li>Use consistent structure with header, title, subtitle, and footer text</li>
+                <li>Maintain our blue color palette with appropriate overlay opacity for text readability</li>
+                <li>Use Cardo font throughout with appropriate size hierarchy</li>
+                <li>Utilize thin divider lines to create visual structure</li>
+                <li>Keep text concise and impactful</li>
+                <li>Use square format for most platforms, with adaptations for Stories and other formats</li>
               </ul>
             </div>
           </div>

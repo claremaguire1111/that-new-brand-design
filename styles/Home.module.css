@@ -184,7 +184,7 @@
   right: 0;
   bottom: 0;
   padding: 2rem;
-  color: var(--blue-darkest);
+  color: white;
   z-index: 5;
   display: flex;
   flex-direction: column;
@@ -195,33 +195,35 @@
   font-size: 1.5rem;
   margin-bottom: 1rem;
   font-weight: 600;
-  color: var(--blue-darkest);
+  color: white;
 }
 
 .contributorDescription {
   font-size: 0.95rem;
   line-height: 1.5;
   margin-bottom: 1.5rem;
-  color: var(--blue-darkest);
+  color: white;
 }
 
 .contributorLink {
-  color: white;
-  background-color: var(--blue-dark);
+  color: var(--blue-darkest);
+  background-color: white;
   padding: 0.7rem 1.4rem;
   border-radius: 4px;
-  font-weight: 500;
+  font-weight: 600;
   transition: all 0.3s ease;
   display: inline-block;
-  border: 1px solid var(--blue-dark);
+  border: 1px solid white;
   align-self: flex-start;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .contributorLink:hover {
-  background-color: var(--blue-darkest);
+  background-color: rgba(255, 255, 255, 0.9);
   transform: translateY(-2px);
   text-decoration: none;
-  color: white;
+  color: var(--blue-darkest);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
 
 /* Offerings Section */

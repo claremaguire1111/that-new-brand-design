@@ -35,8 +35,8 @@ const Navbar = () => {
               <Image 
                 src="/images/ThAT_logo_navbar.png" 
                 alt="Thinking About Thinking Logo"
-                width={120} 
-                height={30}
+                width={240} 
+                height={60}
                 className={styles.logoImage}
                 priority
               />

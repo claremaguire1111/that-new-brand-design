@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import styles from '../styles/Footer.module.css'
 
 const Footer = () => {
@@ -10,8 +11,13 @@ const Footer = () => {
           <div className={styles.footerMain}>
             <div className={styles.logoSection}>
               <div className={styles.logo}>
-                <span className={styles.logoText}>THINKING ABOUT</span>
-                <span className={styles.logoSubtext}>THINKING</span>
+                <Image 
+                  src="/images/ThAT_logo_navbar.png" 
+                  alt="Thinking About Thinking Logo"
+                  width={180} 
+                  height={45}
+                  className={styles.logoImage}
+                />
               </div>
               <p className={styles.tagline}>
                 Building intellectual foundations for computational intelligence.

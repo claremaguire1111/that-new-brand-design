@@ -1,16 +1,27 @@
-/* LT Modern Serif will be loaded via self-hosted files */
+/* Cardo and Aileron fonts - using Inter as replacement for Aileron */
+@import url('https://fonts.googleapis.com/css2?family=Cardo:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
 :root {
-  --primary-bg: #E2EEF5;
-  --secondary-bg: #E2EEF5;
-  --tertiary-bg: #E2EEF5;
-  --footer-bg: #32373C;
-  --text-black: #000000;
-  --text-dark: #32373C;
-  --teal: #43CBCB;
-  --purple: #9054A6;
-  --red: #EA484B;
-  --green: #9BCF46;
+  /* Core colors as specified */
+  --blue-light: #DCE9F7;
+  --blue-medium: #AFC8E9;
+  --blue-dark: #1B335A;
+  --blue-darkest: #0F1E3C;
+  --gray-light: #E6E8EA;
+  --gray-dark: #1A1A1A;
+  --white: #FFFFFF;
+  
+  /* UI mappings */
+  --primary-bg: var(--blue-light);
+  --secondary-bg: var(--blue-medium);
+  --tertiary-bg: var(--gray-light);
+  --footer-bg: var(--blue-dark);
+  --text-primary: var(--gray-dark);
+  --text-secondary: #555;
+  --text-tertiary: #777;
+  --text-black: var(--gray-dark);
+  --text-dark: var(--gray-dark);
 }
 
 /* Add important navbar styles globally to prevent collapse during hot reload */
@@ -37,7 +48,7 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
-  font-family: 'GT Super', 'Noe Display', 'Freight Text', Georgia, Times, serif;
+  font-family: 'Cardo', Georgia, Times, serif;
 }
 
 body {
@@ -54,8 +65,8 @@ a {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'GT Super', 'Noe Display', 'Freight Text', Georgia, Times, serif;
-  font-weight: 400;
+  font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 500;
   line-height: 1.2;
   color: var(--text-black);
   letter-spacing: -0.02em;
@@ -74,8 +85,8 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: center;
   padding: 12px 30px;
   border-radius: 9999px;
-  font-weight: 400;
-  font-family: 'GT Super', 'Noe Display', 'Freight Text', Georgia, Times, serif;
+  font-weight: 500;
+  font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
   transition: all 0.3s;
   font-size: 16px;
 }
@@ -113,7 +124,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Override selection color */
 ::selection {
-  background-color: var(--teal);
+  background-color: var(--blue-dark);
   color: white;
 }
 

@@ -91,7 +91,13 @@ export default function Home() {
           
           <div className={styles.contributorsGrid}>
             {/* Group 1 */}
-            <div className={styles.contributorCard} style={{ backgroundImage: 'url("/images/background1.png")' }}>
+            <div 
+              className={styles.contributorCard} 
+              style={{ 
+                backgroundImage: 'url("/images/1940fbf3-e446-4a1e-89ed-e3a8dc5a7617-md.jpg?v=2")',
+                backgroundColor: 'var(--blue-medium)'
+              }}
+            >
               <div className={styles.contributorContent}>
                 <h3 className={styles.contributorTitle}>
                   Leaders in AI research
@@ -106,7 +112,13 @@ export default function Home() {
             </div>
             
             {/* Group 2 */}
-            <div className={styles.contributorCard} style={{ backgroundImage: 'url("/images/background2.png")' }}>
+            <div 
+              className={styles.contributorCard} 
+              style={{ 
+                backgroundImage: 'url("/images/1940fbf3-e446-4a1e-89ed-e3a8dc5a7617-md.jpg?v=2")',
+                backgroundColor: 'var(--blue-dark)'
+              }}
+            >
               <div className={styles.contributorContent}>
                 <h3 className={styles.contributorTitle}>
                   Neuroscience and mathematics of intelligence
@@ -121,7 +133,13 @@ export default function Home() {
             </div>
             
             {/* Group 3 */}
-            <div className={styles.contributorCard} style={{ backgroundImage: 'url("/images/background3.png")' }}>
+            <div 
+              className={styles.contributorCard} 
+              style={{ 
+                backgroundImage: 'url("/images/1940fbf3-e446-4a1e-89ed-e3a8dc5a7617-md.jpg?v=2")',
+                backgroundColor: 'var(--blue-darkest)'
+              }}
+            >
               <div className={styles.contributorContent}>
                 <h3 className={styles.contributorTitle}>
                   Policy, governance, and society
@@ -132,334 +150,6 @@ export default function Home() {
                 <Link href="/events" className={styles.contributorLink}>
                   Explore our events
                 </Link>
-              </div>
-            </div>
-          </div>
-        </section>
-        
-        {/* Offerings Section */}
-        <section className={styles.section}>
-          <div className={styles.sectionHeader}>
-            <h2 className={styles.sectionTitle}>Our Offerings</h2>
-            <p className={styles.sectionDescription}>
-              Programs and resources for advancing rigorous thinking
-            </p>
-          </div>
-          
-          <div className={styles.offeringsGrid}>
-            {/* Offering 1 */}
-            <div className={styles.offeringCard}>
-              <div className={styles.offeringContent}>
-                <h3 className={styles.offeringTitle}>
-                  Conferences
-                </h3>
-                <p className={styles.offeringDescription}>
-                  Our flagship conferences — AE Global Summit in London and neuromonster.org in Rhodes — convene leading researchers, founders, funders, and policymakers to explore open problems in AI, neuroscience, and the future of work.
-                </p>
-                <Link href="/offerings/conferences" className={styles.offeringLink}>
-                  Explore conferences
-                </Link>
-              </div>
-            </div>
-            
-            {/* Offering 2 */}
-            <div className={styles.offeringCard}>
-              <div className={styles.offeringContent}>
-                <h3 className={styles.offeringTitle}>
-                  Workshops
-                </h3>
-                <p className={styles.offeringDescription}>
-                  Throughout the year, we host focused workshops and small-group sessions where participants tackle concrete bottlenecks in AI, computational neuroscience, research infrastructure, and governance.
-                </p>
-                <Link href="/offerings/workshops" className={styles.offeringLink}>
-                  Explore workshops
-                </Link>
-              </div>
-            </div>
-            
-            {/* Offering 3 */}
-            <div className={styles.offeringCard}>
-              <div className={styles.offeringContent}>
-                <h3 className={styles.offeringTitle}>
-                  Patron & Side Events
-                </h3>
-                <p className={styles.offeringDescription}>
-                  From House of Lords dinners to partner events in London and beyond, our patron and side-event programme creates spaces for deeper, off-the-record dialogue among supporters, fellows, and invited guests.
-                </p>
-                <Link href="/offerings/patron-events" className={styles.offeringLink}>
-                  Explore patron events
-                </Link>
-              </div>
-            </div>
-            
-            {/* Offering 4 */}
-            <div className={styles.offeringCard}>
-              <div className={styles.offeringContent}>
-                <h3 className={styles.offeringTitle}>
-                  Ambassador Programmes
-                </h3>
-                <p className={styles.offeringDescription}>
-                  Our student and community ambassadors help convene local ecosystems, support event delivery, and bring Thinking About Thinking into universities, labs, and communities around the world.
-                </p>
-                <Link href="/offerings/ambassadors" className={styles.offeringLink}>
-                  Explore ambassador programmes
-                </Link>
-              </div>
-            </div>
-            
-            {/* Offering 5 */}
-            <div className={styles.offeringCard}>
-              <div className={styles.offeringContent}>
-                <h3 className={styles.offeringTitle}>
-                  Fellowship
-                </h3>
-                <p className={styles.offeringDescription}>
-                  Our Fellowship recognises exceptional ambassadors and contributors. Fellows stay closely involved in shaping our programmes, speaking at events, and mentoring the next generation.
-                </p>
-                <Link href="/offerings/fellowship" className={styles.offeringLink}>
-                  Explore fellowship
-                </Link>
-              </div>
-            </div>
-            
-            {/* Offering 6 */}
-            <div className={styles.offeringCard}>
-              <div className={styles.offeringContent}>
-                <h3 className={styles.offeringTitle}>
-                  Recordings & Podcasts
-                </h3>
-                <p className={styles.offeringDescription}>
-                  Talks, keynotes, conversations, and podcast episodes from our events and seminars — making frontier thinking on AI, neuroscience, and society available to a wider public.
-                </p>
-                <Link href="/recordings" className={styles.offeringLink}>
-                  Explore recordings
-                </Link>
-              </div>
-            </div>
-          </div>
-        </section>
-        
-        {/* Recordings Section */}
-        <section className={styles.section}>
-          <div className={styles.sectionHeader}>
-            <h2 className={styles.sectionTitle}>Recordings & Podcasts</h2>
-            <p className={styles.sectionDescription}>
-              Frontier thinking on AI, neuroscience, and society
-            </p>
-          </div>
-          
-          <div className={styles.recordingsGrid}>
-            {/* Recording 1 */}
-            <div className={styles.recordingCard}>
-              <div className={styles.recordingContent}>
-                <div className={styles.recordingCategory}>
-                  <span>On open problems in AI</span>
-                </div>
-                <h3 className={styles.recordingTitle}>
-                  Keynote with [Speaker Name]
-                </h3>
-                <p className={styles.recordingDescription}>
-                  A leading researcher in AI presents current open problems in machine learning and alignment, and explores how new mathematical tools and experimental paradigms might move the field forward.
-                </p>
-                <div className={styles.recordingActions}>
-                  <Link href="/recordings/open-problems" className={styles.recordingLink}>
-                    Watch
-                  </Link>
-                  <Link href="/recordings" className={styles.recordingLink}>
-                    Explore recordings & podcasts
-                  </Link>
-                </div>
-              </div>
-            </div>
-            
-            {/* Recording 2 */}
-            <div className={styles.recordingCard}>
-              <div className={styles.recordingContent}>
-                <div className={styles.recordingCategory}>
-                  <span>Brains, computation, and intelligence</span>
-                </div>
-                <h3 className={styles.recordingTitle}>
-                  Seminar with [Speaker Name]
-                </h3>
-                <p className={styles.recordingDescription}>
-                  A neuroscientist working at the interface of biology and computation shares work on how brains represent, learn, and adapt — and what this might mean for AI systems.
-                </p>
-                <div className={styles.recordingActions}>
-                  <Link href="/recordings/brains-computation" className={styles.recordingLink}>
-                    Watch
-                  </Link>
-                  <Link href="/recordings" className={styles.recordingLink}>
-                    Explore recordings & podcasts
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        
-        {/* Focus Areas Section */}
-        <section className={styles.section}>
-          <div className={styles.sectionHeader}>
-            <h2 className={styles.sectionTitle}>Focus Areas</h2>
-            <p className={styles.sectionDescription}>
-              The core themes that drive our work
-            </p>
-          </div>
-          
-          <div className={styles.focusAreasGrid}>
-            {/* Focus Area 1 */}
-            <div className={styles.focusAreaCard}>
-              <div className={styles.focusAreaHeader} style={{ backgroundImage: 'linear-gradient(to right, #1B7774, #0A3537)' }}>
-                <h3 className={styles.focusAreaTitle}>AI research & safety</h3>
-              </div>
-              <div className={styles.focusAreaContent}>
-                <p className={styles.focusAreaDescription}>
-                  Supporting researchers and practitioners working on the foundations, safety, and reliability of advanced AI systems.
-                </p>
-                <Link href="/focus/ai-safety" className={styles.focusAreaLink}>
-                  View AI research & safety
-                </Link>
-              </div>
-            </div>
-            
-            {/* Focus Area 2 */}
-            <div className={styles.focusAreaCard}>
-              <div className={styles.focusAreaHeader} style={{ backgroundImage: 'linear-gradient(to right, #1B7774, #0A3537)' }}>
-                <h3 className={styles.focusAreaTitle}>Neuroscience & cognition</h3>
-              </div>
-              <div className={styles.focusAreaContent}>
-                <p className={styles.focusAreaDescription}>
-                  Exploring how brains compute, represent, and adapt — and how insights from neuroscience can inform artificial systems.
-                </p>
-                <Link href="/focus/neuroscience" className={styles.focusAreaLink}>
-                  View neuroscience & cognition
-                </Link>
-              </div>
-            </div>
-            
-            {/* Focus Area 3 */}
-            <div className={styles.focusAreaCard}>
-              <div className={styles.focusAreaHeader} style={{ backgroundImage: 'linear-gradient(to right, #1B7774, #0A3537)' }}>
-                <h3 className={styles.focusAreaTitle}>Mathematics & theory</h3>
-              </div>
-              <div className={styles.focusAreaContent}>
-                <p className={styles.focusAreaDescription}>
-                  Focusing on the mathematical structures underlying learning, optimization, information, and complexity.
-                </p>
-                <Link href="/focus/mathematics" className={styles.focusAreaLink}>
-                  View mathematics & theory
-                </Link>
-              </div>
-            </div>
-            
-            {/* Focus Area 4 */}
-            <div className={styles.focusAreaCard}>
-              <div className={styles.focusAreaHeader} style={{ backgroundImage: 'linear-gradient(to right, #1B7774, #0A3537)' }}>
-                <h3 className={styles.focusAreaTitle}>Society & governance</h3>
-              </div>
-              <div className={styles.focusAreaContent}>
-                <p className={styles.focusAreaDescription}>
-                  Bringing together policymakers, lawyers, and economists to think clearly about how AI reshapes power and governance.
-                </p>
-                <Link href="/focus/society" className={styles.focusAreaLink}>
-                  View society & governance
-                </Link>
-              </div>
-            </div>
-          </div>
-        </section>
-        
-        {/* Milestones Section */}
-        <section className={styles.section}>
-          <div className={styles.sectionHeader}>
-            <h2 className={styles.sectionTitle}>Our Milestones</h2>
-            <p className={styles.sectionDescription}>
-              Since our founding, we have been building the infrastructure — intellectual, social, and institutional — for a more thoughtful AI future.
-            </p>
-          </div>
-          
-          <div className={styles.milestonesContainer}>
-            <div className={styles.milestone}>
-              <div className={styles.milestoneIndicator}></div>
-              <div className={styles.milestoneContent}>
-                <h3 className={styles.milestoneTitle}>Launched AE Global Summit in London</h3>
-                <p className={styles.milestoneDescription}>
-                  Brought together researchers, engineers, founders, and policymakers to focus on open problems in AI and research infrastructure.
-                </p>
-              </div>
-            </div>
-            
-            <div className={styles.milestone}>
-              <div className={styles.milestoneIndicator}></div>
-              <div className={styles.milestoneContent}>
-                <h3 className={styles.milestoneTitle}>Created neuromonster.org</h3>
-                <p className={styles.milestoneDescription}>
-                  Established a retreat-format conference on the mathematics and neuroscience of intelligence in Rhodes, blending deep technical work with interdisciplinary dialogue.
-                </p>
-              </div>
-            </div>
-            
-            <div className={styles.milestone}>
-              <div className={styles.milestoneIndicator}></div>
-              <div className={styles.milestoneContent}>
-                <h3 className={styles.milestoneTitle}>Built a global ambassador network</h3>
-                <p className={styles.milestoneDescription}>
-                  Launched student and community ambassador programmes connecting universities, labs, and communities across multiple countries.
-                </p>
-              </div>
-            </div>
-            
-            <div className={styles.milestone}>
-              <div className={styles.milestoneIndicator}></div>
-              <div className={styles.milestoneContent}>
-                <h3 className={styles.milestoneTitle}>Established the Fellowship pathway</h3>
-                <p className={styles.milestoneDescription}>
-                  Introduced a Fellowship to recognise and support exceptional ambassadors and contributors who continue shaping our work.
-                </p>
-              </div>
-            </div>
-            
-            <div className={styles.milestone}>
-              <div className={styles.milestoneIndicator}></div>
-              <div className={styles.milestoneContent}>
-                <h3 className={styles.milestoneTitle}>Expanded into media and public education</h3>
-                <p className={styles.milestoneDescription}>
-                  Began recording and distributing talks, seminars, and podcasts to make frontier thinking accessible beyond the room.
-                </p>
-              </div>
-            </div>
-          </div>
-          
-          <div className={styles.sectionCta}>
-            <Link href="/about" className={styles.btnOutline}>
-              Learn more about Thinking About Thinking Inc.
-            </Link>
-          </div>
-        </section>
-        
-        {/* Newsletter Section */}
-        <section className={styles.newsletterSection}>
-          <div className={styles.newsletterContent}>
-            <div className={styles.newsletterText}>
-              <h2 className={styles.newsletterTitle}>Fund rigorous thinking about the future.</h2>
-              <p className={styles.newsletterDescription}>
-                Donate today
-              </p>
-              <Link href="/donate" style={{ backgroundColor: 'white', color: '#1B7774', padding: '12px 24px', borderRadius: '4px', textDecoration: 'none', fontWeight: '500', display: 'inline-block', marginTop: '12px', border: '1px solid #1B7774' }}>
-                Donate
-              </Link>
-            </div>
-            <div className={styles.newsletterForm}>
-              <h3 className={styles.newsletterFormTitle}>Subscribe to our newsletter:</h3>
-              <div className={styles.inputGroup}>
-                <input
-                  type="email"
-                  placeholder="Your email address"
-                  className={styles.emailInput}
-                />
-                <button className={styles.subscribeBtn}>
-                  Subscribe
-                </button>
               </div>
             </div>
           </div>

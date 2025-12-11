@@ -16,7 +16,7 @@
   margin: 5rem 0 3rem;
   text-align: center;
   padding: 3rem 1rem;
-  background: linear-gradient(to right, #E1F1F4, #CFE3F6, #CDEFD9);
+  background: linear-gradient(to right, var(--blue-light), var(--blue-medium));
   border-radius: 8px;
 }
 
@@ -53,7 +53,7 @@
   position: absolute;
   width: 60px;
   height: 4px;
-  background-color: #1B7774;
+  background-color: #1B335A;
   bottom: -10px;
   left: 0;
 }
@@ -143,17 +143,18 @@
 }
 
 .downloadButton {
-  background-color: #1B7774;
+  background-color: #1B335A;
   color: white;
   padding: 0.8rem 1.5rem;
   border-radius: 4px;
   font-weight: 500;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease, transform 0.2s ease;
   display: inline-block;
 }
 
 .downloadButton:hover {
-  background-color: #0A3537;
+  background-color: #0E1A2E;
+  transform: translateY(-2px);
   text-decoration: none;
 }
 
@@ -215,7 +216,7 @@
 }
 
 .colorUsage {
-  background-color: #E1F1F4;
+  background-color: #DCE9F7;
   padding: 2rem;
   border-radius: 8px;
   margin-top: 2rem;
@@ -239,7 +240,7 @@
 }
 
 .usageList strong {
-  color: #1B7774;
+  color: #1B335A;
   font-weight: 600;
 }
 
@@ -271,7 +272,7 @@
 }
 
 .fontSampleHeading1 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
   font-size: 2rem;
   font-weight: 700;
   margin-bottom: 1rem;
@@ -279,7 +280,7 @@
 }
 
 .fontSampleHeading2 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
   font-size: 1.5rem;
   font-weight: 600;
   margin-bottom: 1rem;
@@ -287,14 +288,14 @@
 }
 
 .fontSampleHeading3 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
   font-size: 1.2rem;
   font-weight: 600;
   color: #333;
 }
 
 .fontSampleBody {
-  font-family: 'Merriweather', serif;
+  font-family: 'Cardo', Georgia, serif;
   font-size: 1rem;
   line-height: 1.6;
   color: #333;
@@ -434,7 +435,7 @@
   background-color: #fff;
   padding: 1.5rem;
   border-radius: 8px;
-  border-left: 4px solid #1B7774;
+  border-left: 4px solid #1B335A;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
 }
 
@@ -446,7 +447,7 @@
 
 /* Download Section */
 .downloadSection {
-  background: linear-gradient(45deg, #0A3537, #1B7774);
+  background: linear-gradient(45deg, var(--blue-darkest), var(--blue-dark));
   padding: 4rem 2rem;
   border-radius: 8px;
   margin: 5rem 0;
@@ -472,7 +473,7 @@
 
 .mainDownloadButton {
   background-color: white;
-  color: #1B7774;
+  color: #1B335A;
   padding: 1rem 2rem;
   border-radius: 4px;
   font-weight: 600;
@@ -512,14 +513,14 @@
 }
 
 .contactLink {
-  color: #1B7774;
+  color: var(--blue-dark);
   font-weight: 600;
   font-size: 1.1rem;
   transition: color 0.3s ease;
 }
 
 .contactLink:hover {
-  color: #0A3537;
+  color: var(--blue-darkest);
 }
 
 /* Responsive styles */

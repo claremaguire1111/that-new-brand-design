@@ -531,7 +531,7 @@
 }
 
 .speakerInfo {
-  flex: 3;
+  flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -541,7 +541,7 @@
 }
 
 .speakerImage {
-  flex: 2;
+  flex: 1.2;
   background-size: cover;
   background-position: center;
   filter: grayscale(100%);

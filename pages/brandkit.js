@@ -308,14 +308,14 @@ export default function BrandKit() {
               <div className={styles.socialCard}>
                 <div className={styles.speakerCard}>
                   <div className={styles.speakerInfo}>
-                    <div className={styles.socialHeader}>Speaker Announcement</div>
+                    <div className={styles.socialHeader} style={{ fontSize: "0.9rem" }}>Speaker Announcement</div>
                     <div className={styles.socialDividerDark}></div>
-                    <div className={styles.socialTitle} style={{ fontSize: "1.4rem" }}>Neuromonster 2026 Keynote</div>
-                    <div className={styles.socialLocation}>Dr. Ruairidh Battleday</div>
+                    <div className={styles.socialTitle} style={{ fontSize: "1.3rem", marginBottom: "0.5rem" }}>Neuromonster 2026 Keynote</div>
+                    <div className={styles.socialLocation} style={{ fontSize: "1.1rem" }}>Dr. Ruairidh Battleday</div>
                     <div className={styles.socialDividerDark}></div>
-                    <div className={styles.socialFooter}>June 15-18, 2026 • Rhodes, Greece</div>
+                    <div className={styles.socialFooter} style={{ fontSize: "0.85rem" }}>June 15-18, 2026 • Rhodes, Greece</div>
                   </div>
-                  <div className={styles.speakerImage} style={{ backgroundImage: 'url("/images/1536499760985.jpg")' }}></div>
+                  <div className={styles.speakerImage} style={{ backgroundImage: 'url("/images/1536499760985.jpg")', backgroundPosition: 'center 30%' }}></div>
                 </div>
                 <p className={styles.socialCaption}>Speaker Announcement Template (White)</p>
               </div>

@@ -184,7 +184,7 @@
   right: 0;
   bottom: 0;
   padding: 2rem;
-  color: white;
+  color: var(--blue-darkest);
   z-index: 5;
   display: flex;
   flex-direction: column;
@@ -195,14 +195,14 @@
   font-size: 1.5rem;
   margin-bottom: 1rem;
   font-weight: 600;
-  color: white;
+  color: var(--blue-darkest);
 }
 
 .contributorDescription {
   font-size: 0.95rem;
   line-height: 1.5;
   margin-bottom: 1.5rem;
-  color: white;
+  color: var(--blue-darkest);
 }
 
 .contributorLink {

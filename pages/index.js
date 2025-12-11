@@ -94,7 +94,7 @@ export default function Home() {
             <div className={styles.contributorCard}>
               <div 
                 style={{ 
-                  backgroundImage: 'url("/images/1940fbf3-e446-4a1e-89ed-e3a8dc5a7617-md.jpg?v=4")',
+                  backgroundImage: 'url("/images/1940fbf3-e446-4a1e-89ed-e3a8dc5a7617-md.jpg?v=5")',
                   position: 'absolute',
                   top: 0,
                   left: 0,
@@ -109,13 +109,13 @@ export default function Home() {
               />
               <div 
                 style={{ 
-                  backgroundColor: 'var(--blue-medium)',
+                  backgroundColor: 'var(--blue-light)',
                   position: 'absolute',
                   top: 0,
                   left: 0,
                   right: 0,
                   bottom: 0,
-                  opacity: 0.6,
+                  opacity: 0.7,
                   zIndex: 2
                 }}
               />
@@ -136,7 +136,7 @@ export default function Home() {
             <div className={styles.contributorCard}>
               <div 
                 style={{ 
-                  backgroundImage: 'url("/images/1940fbf3-e446-4a1e-89ed-e3a8dc5a7617-md.jpg?v=4")',
+                  backgroundImage: 'url("/images/1940fbf3-e446-4a1e-89ed-e3a8dc5a7617-md.jpg?v=5")',
                   position: 'absolute',
                   top: 0,
                   left: 0,
@@ -151,13 +151,13 @@ export default function Home() {
               />
               <div 
                 style={{ 
-                  backgroundColor: 'var(--blue-medium)',
+                  backgroundColor: 'var(--blue-light)',
                   position: 'absolute',
                   top: 0,
                   left: 0,
                   right: 0,
                   bottom: 0,
-                  opacity: 0.6,
+                  opacity: 0.7,
                   zIndex: 2
                 }}
               />
@@ -178,7 +178,7 @@ export default function Home() {
             <div className={styles.contributorCard}>
               <div 
                 style={{ 
-                  backgroundImage: 'url("/images/1940fbf3-e446-4a1e-89ed-e3a8dc5a7617-md.jpg?v=4")',
+                  backgroundImage: 'url("/images/1940fbf3-e446-4a1e-89ed-e3a8dc5a7617-md.jpg?v=5")',
                   position: 'absolute',
                   top: 0,
                   left: 0,
@@ -193,13 +193,13 @@ export default function Home() {
               />
               <div 
                 style={{ 
-                  backgroundColor: 'var(--blue-medium)',
+                  backgroundColor: 'var(--blue-light)',
                   position: 'absolute',
                   top: 0,
                   left: 0,
                   right: 0,
                   bottom: 0,
-                  opacity: 0.6,
+                  opacity: 0.7,
                   zIndex: 2
                 }}
               />

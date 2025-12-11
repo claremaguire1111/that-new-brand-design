@@ -91,13 +91,31 @@ export default function Home() {
           
           <div className={styles.contributorsGrid}>
             {/* Group 1 */}
-            <div 
-              className={styles.contributorCard} 
-              style={{ 
-                backgroundImage: 'url("/images/1940fbf3-e446-4a1e-89ed-e3a8dc5a7617-md.jpg?v=2")',
-                backgroundColor: 'var(--blue-medium)'
-              }}
-            >
+            <div className={styles.contributorCard}>
+              <div 
+                style={{ 
+                  backgroundImage: 'url("/images/1940fbf3-e446-4a1e-89ed-e3a8dc5a7617-md.jpg?v=3")',
+                  position: 'absolute',
+                  top: 0,
+                  left: 0,
+                  right: 0,
+                  bottom: 0,
+                  opacity: 1,
+                  zIndex: 1
+                }}
+              />
+              <div 
+                style={{ 
+                  backgroundColor: 'var(--blue-medium)',
+                  position: 'absolute',
+                  top: 0,
+                  left: 0,
+                  right: 0,
+                  bottom: 0,
+                  opacity: 0.8,
+                  zIndex: 2
+                }}
+              />
               <div className={styles.contributorContent}>
                 <h3 className={styles.contributorTitle}>
                   Leaders in AI research
@@ -112,13 +130,31 @@ export default function Home() {
             </div>
             
             {/* Group 2 */}
-            <div 
-              className={styles.contributorCard} 
-              style={{ 
-                backgroundImage: 'url("/images/1940fbf3-e446-4a1e-89ed-e3a8dc5a7617-md.jpg?v=2")',
-                backgroundColor: 'var(--blue-dark)'
-              }}
-            >
+            <div className={styles.contributorCard}>
+              <div 
+                style={{ 
+                  backgroundImage: 'url("/images/1940fbf3-e446-4a1e-89ed-e3a8dc5a7617-md.jpg?v=3")',
+                  position: 'absolute',
+                  top: 0,
+                  left: 0,
+                  right: 0,
+                  bottom: 0,
+                  opacity: 1,
+                  zIndex: 1
+                }}
+              />
+              <div 
+                style={{ 
+                  backgroundColor: 'var(--blue-dark)',
+                  position: 'absolute',
+                  top: 0,
+                  left: 0,
+                  right: 0,
+                  bottom: 0,
+                  opacity: 0.75,
+                  zIndex: 2
+                }}
+              />
               <div className={styles.contributorContent}>
                 <h3 className={styles.contributorTitle}>
                   Neuroscience and mathematics of intelligence
@@ -133,13 +169,31 @@ export default function Home() {
             </div>
             
             {/* Group 3 */}
-            <div 
-              className={styles.contributorCard} 
-              style={{ 
-                backgroundImage: 'url("/images/1940fbf3-e446-4a1e-89ed-e3a8dc5a7617-md.jpg?v=2")',
-                backgroundColor: 'var(--blue-darkest)'
-              }}
-            >
+            <div className={styles.contributorCard}>
+              <div 
+                style={{ 
+                  backgroundImage: 'url("/images/1940fbf3-e446-4a1e-89ed-e3a8dc5a7617-md.jpg?v=3")',
+                  position: 'absolute',
+                  top: 0,
+                  left: 0,
+                  right: 0,
+                  bottom: 0,
+                  opacity: 1,
+                  zIndex: 1
+                }}
+              />
+              <div 
+                style={{ 
+                  backgroundColor: 'var(--blue-darkest)',
+                  position: 'absolute',
+                  top: 0,
+                  left: 0,
+                  right: 0,
+                  bottom: 0,
+                  opacity: 0.7,
+                  zIndex: 2
+                }}
+              />
               <div className={styles.contributorContent}>
                 <h3 className={styles.contributorTitle}>
                   Policy, governance, and society

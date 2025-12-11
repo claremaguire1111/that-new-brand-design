@@ -164,9 +164,10 @@
   background-position: center;
   background-repeat: no-repeat;
   overflow: hidden;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   z-index: 1;
+  background-blend-mode: soft-light;
 }
 
 .contributorCard:hover {
@@ -174,55 +175,53 @@
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
 }
 
-.contributorCard::before {
-  content: '';
+/* Removed overlay gradient as it's now handled directly in the component */
+
+.contributorContent {
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6));
-  z-index: 2;
-}
-
-.contributorContent {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
   padding: 2rem;
-  color: white;
+  color: var(--blue-darkest);
   z-index: 5;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 .contributorTitle {
   font-size: 1.5rem;
   margin-bottom: 1rem;
   font-weight: 600;
+  color: var(--blue-darkest);
 }
 
 .contributorDescription {
   font-size: 0.95rem;
   line-height: 1.5;
   margin-bottom: 1.5rem;
-  opacity: 0.9;
+  color: var(--blue-darkest);
 }
 
 .contributorLink {
   color: white;
-  background-color: rgba(255, 255, 255, 0.25);
+  background-color: var(--blue-dark);
   padding: 0.7rem 1.4rem;
   border-radius: 4px;
   font-weight: 500;
   transition: all 0.3s ease;
   display: inline-block;
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  border: 1px solid var(--blue-dark);
+  align-self: flex-start;
 }
 
 .contributorLink:hover {
-  background-color: rgba(255, 255, 255, 0.35);
+  background-color: var(--blue-darkest);
   transform: translateY(-2px);
   text-decoration: none;
+  color: white;
 }
 
 /* Offerings Section */

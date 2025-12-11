@@ -151,13 +151,13 @@ export default function Home() {
               />
               <div 
                 style={{ 
-                  backgroundColor: 'var(--blue-dark)',
+                  backgroundColor: 'var(--blue-medium)',
                   position: 'absolute',
                   top: 0,
                   left: 0,
                   right: 0,
                   bottom: 0,
-                  opacity: 0.55,
+                  opacity: 0.6,
                   zIndex: 2
                 }}
               />
@@ -193,13 +193,13 @@ export default function Home() {
               />
               <div 
                 style={{ 
-                  backgroundColor: 'var(--blue-darkest)',
+                  backgroundColor: 'var(--blue-medium)',
                   position: 'absolute',
                   top: 0,
                   left: 0,
                   right: 0,
                   bottom: 0,
-                  opacity: 0.5,
+                  opacity: 0.6,
                   zIndex: 2
                 }}
               />
